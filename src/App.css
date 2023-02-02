@@ -2,20 +2,33 @@
 .board {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 100px;
   width: 400px;
   height: 400px;
-  background-color: #f2f2f2;
+  background-color: #768989;
   border: 1px solid #ccc;
 }
 
 .playBorder {
-  width: 100px;
-  height: 100px;
+  width: 131.6px;
+  height: 131.6px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 36px;
   font-weight: bold;
   border: 1px solid #ccc;;
+  color: white;
 }
 
+.winner {
+  width: 400px;
+  background-color: #768989;
+  border: 1px solid #ccc;
+  
+}
+.winner h1 {
+  margin-left: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+}

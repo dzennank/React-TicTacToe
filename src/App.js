@@ -52,7 +52,10 @@ function App() {
           </div>
           )
         })}
-       {board.every(e => e !== null) ? <h1>It is Draw</h1> : <h1>Winner is {winner}</h1>}
+        <div className='winner'>
+        {board.every(e => e !== null) ? <h1>It is Draw</h1> : <h1>Winner is: "{winner}"</h1>}
+        </div>
+       
         </div>
   
   );
