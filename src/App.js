@@ -34,6 +34,9 @@ function App() {
         } 
       }
      
+      if(winner === "X" || winner === "O") {
+        alert(`Winner is ${winner} please refresh page to play again`)
+      }
     
   }
 
